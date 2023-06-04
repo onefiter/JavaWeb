@@ -24,6 +24,10 @@ hs_err_pid*
 replay_pid*
 
 
-# dirs
+# dirs and files
+## dirs
 out
+.idea
+
+## files
 .DS_Store
