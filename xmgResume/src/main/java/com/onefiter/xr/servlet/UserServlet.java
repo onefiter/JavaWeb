@@ -95,6 +95,7 @@ public class UserServlet extends BaseServlet<User> {
         // 从Session中取出验证码
         String code = (String) request.getSession().getAttribute("code");
 
+
         if (!captcha.equals(code)) {
             // forwardError(request, response, "验证码不正确");
             result.put("success", false);
